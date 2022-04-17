@@ -8,6 +8,8 @@ import (
 	"syscall"
 )
 
+
+//github token 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
 func main()  {
 	lib.InitModule("./conf/dev/",[]string{"base","mysql","redis"})
 	defer lib.Destroy()
